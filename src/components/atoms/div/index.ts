@@ -1,4 +1,4 @@
 export * from './components';
 import { Props } from './props';
 
-export type DivPoprps = Props;
+export type DivProps = Props;
