@@ -1,4 +1,4 @@
 export * from './component';
 import { Props } from './props';
 
-export type QuestionAndAnswersProps = Props;
+export type H2Props = Props;

@@ -1,10 +1,9 @@
-import { QuestionAndAnswers } from "components/molecules";
-import { Sun } from "components/molecules/sun";
+import { SolarPoweredWaterWells } from "components/organisms";
 
 export default function Home() {
   return (
     <div>
-      <QuestionAndAnswers />
+      <SolarPoweredWaterWells />
     </div>
   )
 }
