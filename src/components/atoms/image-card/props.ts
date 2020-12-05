@@ -1,3 +1,3 @@
-import { HTMLAttributes } from "react";
+import { ImgHTMLAttributes } from "react";
 
-export type Props = HTMLAttributes<HTMLImageElement>;
+export type Props = ImgHTMLAttributes<HTMLImageElement>;

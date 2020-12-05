@@ -1,0 +1,71 @@
+$bold: bold;
+
+@font-face {
+    font-family: 'Spectral Light';
+    src: url('/fonts/Spectral/Spectral-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Spectral Medium';
+    src: url('/fonts/Spectral/Spectral-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Spectral Regular';
+    src: url('/fonts/Spectral/Spectral-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Spectral SemiBold';
+    src: url('/fonts/Spectral/Spectral-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Graphik LC Web';
+    src: url('/fonts/Graphik/Graphik LC Web.ttf');
+    font-weight: 700;
+}
+
+html,
+body {
+    font-family: 'Spectral Light';
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bold {
+    font-weight: $bold;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+input::placeholder {
+    color: #ffffff50;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
